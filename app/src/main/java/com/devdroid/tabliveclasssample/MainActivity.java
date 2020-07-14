@@ -21,6 +21,6 @@ ViewPager viewPager;
         ViewPagerFragmentAdapter adapter = new ViewPagerFragmentAdapter(getSupportFragmentManager());
         viewPager.setAdapter(adapter);
 
-        tab.setupWithViewPager(viewPager);
+        tab.setupWithViewPager(viewPager); //setting tab for viewPager
     }
 }
